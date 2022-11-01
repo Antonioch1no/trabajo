@@ -1,0 +1,27 @@
+body {
+  background-image: url("https://storage.googleapis.com/www-paredro-com/uploads/2017/10/rsz_izzi_02.jpg");
+  background-size: cover;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.card {
+  margin: 0 auto;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
